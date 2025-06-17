@@ -20,17 +20,24 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+.header-navigation-list-anchor {
+  font-weight: 500;
+  line-height: 1.5;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
 
-
-.header-navigation-list-anchor-link:hover {
+.header-navigation-list-anchor:hover {
   color: #404bbf;
 }
-.header-navigation-list-anchor-link:focus {
+.header-navigation-list-anchor:focus {
   color: #404bbf;
 }
 .header-navigation-logo-iris {
   color: #2e2f42;
 }
+
 
 .address {
   font-style: normal;
@@ -83,13 +90,13 @@ background-color: #404BBF;
 }
 
 .portfolio-list-heading,
-.our-team-list-heading,
 .advanteges-heading {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.11;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 
 
@@ -101,24 +108,43 @@ background-color: #404BBF;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.advanteges-title,
-.our-team-title,
-.portfolio-title {
+.advanteges-title
+{
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
-.header-navigation-list-anchor {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
+.our-team-title {
+  line-height: 1.2;
+  font-weight: 700;
+  font-size: 36px;
   letter-spacing: 0.02em;
-  color: rgba(46, 47, 66, 1);
+  color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
+
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+   text-align: center;
+}
+.our-team-list-heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .portfolio-list-heading {
- line-height: 1.2;
+ line-height: 1.1;
 }
 
 footer {
